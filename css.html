@@ -1,0 +1,50 @@
+<!-- CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+using 3 ways we will add css to html page, 1.inline css, 2.internal css, 3.external css -->
+
+
+<!-- 1.inline css ==> using inline css we will give styling to an element, in opening tag using style attribute we will define styles-->
+<h1 style="background-color: yellow;">hello all i am anusha dammalapati<p style="color: green;">working as a software
+        engineer</p>
+</h1>
+<hr>
+
+
+<!-- 2.internal css ==> using internal css we will give styling to total html page,
+ inside header tag we define style element, in that style element we will define all our css which is required for html page -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            color: rgb(213, 205, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>adding inline css</h1>
+</body>
+
+</html>
+<hr>
+
+
+<!-- 3.external css, we will define all our css propertys in a css file and we bind that path in to our html file -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./sample_css.css">
+</head>
+<body>
+    <div>
+        <span>adding external stylesheet</span>
+    </div>
+</body>
+</html>
